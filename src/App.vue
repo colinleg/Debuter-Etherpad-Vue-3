@@ -1,30 +1,28 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/test1">Test n°1 : </router-link><br />
+    <router-link to="/test2">Test n°2 : </router-link><br />
+    <router-link to="/test3">Test n°3 : </router-link><br />
+    <router-link to="/test4">Test n°4 : </router-link><br />
+    <router-link to="/test5">Test n°5 : </router-link><br />
+    <router-link to="/test6">Test n°6 : </router-link>
   </div>
   <router-view/>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style scoped>
+#nav{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 5rem;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+a{
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.6em;
 }
 </style>
