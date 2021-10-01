@@ -31,10 +31,5 @@ export default {
   margin-left: 5rem;
 }
 
-a{
-  margin-top: 10px;
-  color: black;
-  text-decoration: none;
-  font-size: 1.6em;
-}
+
 </style>
